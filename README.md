@@ -21,7 +21,7 @@ Configuration of the plugin is done through the `config.yml` file in the plugin 
 
 ## Contribute
 
-This project is developed as open source on GitHub. To contribute or review the project, you can visit [GitHub Repository](https://github.com/username/EmpireProtect).
+This project is developed as open source on GitHub. To contribute or review the project, you can visit [GitHub Repository](https://github.com/wtfrankjs/EmpireProtect).
 
 ## Licence
 
