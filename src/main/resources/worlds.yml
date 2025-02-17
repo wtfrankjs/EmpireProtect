@@ -1,0 +1,50 @@
+worlds:
+  world:
+    Active: true  # Devre dışı bırakmak için false yap
+    Spawn:
+      X: 0
+      Y: 64
+      Z: 0
+      Yaw: 0
+      Pitch: 0
+    SendToSpawn: true
+    DaylightCycle: false
+    WeatherChange: false
+    SpawnProtection:
+      break: false
+      place: false
+      pickup: false
+      drop: false
+      use: false
+      pvp: false
+      mobspawn: false
+      chat: false
+      invincible: true
+      hunger: false
+      explosion: false
+      blockPhysics: false
+
+  world_nether:
+    Active: false  # Bu dünya devre dışı
+    Spawn:
+      X: -50
+      Y: 70
+      Z: 30
+      Yaw: 90
+      Pitch: 0
+    SendToSpawn: false
+    DaylightCycle: true
+    WeatherChange: true
+    SpawnProtection:
+      break: true
+      place: true
+      pickup: true
+      drop: true
+      use: true
+      pvp: true
+      mobspawn: true
+      chat: true
+      invincible: false
+      hunger: true
+      explosion: false
+      blockPhysics: true

@@ -1,0 +1,8 @@
+tr:
+  Error1: '&cBurada bunu yapamazsın!'
+  Reloaded: '&aPlugin başarıyla yenilendi!'
+  spawn: '&aBaşarıyla Spawn Noktasına Işınlandınız.'
+en:
+  Error1: '&cYou can''t do that here!'
+  Reloaded: '&aPlugin reloaded successfully!'
+  spawn: '&aYou''ve Successfully Teleported to Spawn.'

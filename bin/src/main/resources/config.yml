@@ -1,0 +1,19 @@
+#Girişte Gösterilecek Mesajı Ayarlar.
+Join:
+  TitleEnabled: true
+  Title: '&6TheEmpire'
+  Subtitle: '&c%player% &aWelcome To Empire!'
+Settings:
+  Prefix: '&eThe Empire »'
+## World kısmından korunacak dünyayı seçin true = koruma aktif false = koruma kapalı
+  spawn:
+    world: Spawn
+    adminperm: empireadmin
+    break: true
+    place: true
+    pickup: true
+    drop: true
+    use: true
+    pvp: true
+    mobspawn: true
+    chat: true,

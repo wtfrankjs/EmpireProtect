@@ -1,0 +1,56 @@
+#----------------------------------------------------------------
+#EMPIRE PROTECT - WTFRANKJS
+#MY VELOCITY HUP PLUGIN REALAESED: https://www.spigotmc.org/resources/velocityhub-simple-command-teleportation-management-hub.121275/
+#Herhangi bir sorun ve ya destek için: discord - wtfrankjs
+#For support and feedback: discord - wtfrankjs
+#----------------------------------------------------------------
+
+#Join Title Settings
+#Girişte Gösterilecek Mesajı Ayarlar.
+Join:
+  TitleEnabled: true
+  Title: '&6TheEmpire'
+  #en: &c%player% %aWelcome to Kingdom!'
+  Subtitle: '&c%player% &aKrallığa Hoşgeldin!'
+
+#Settings of actions
+#Ayarları buradan düzenleyebilirsiniz.
+Settings:
+  #Availble languages: en, tr
+  #Türkçe için tr olarak değişitirin.
+  Language: en
+  Prefix: '&6The Empire »'
+  #allow: Açık (OPEN) / deny: Kapalı (CLOSE)
+  DaylightCycle: allow
+  WeatherChange: allow
+
+  #World kısmından korunacak dünyayı seçin deny = koruma aktif / allow = koruma kapalı
+  spawn:
+    worlds:
+      - world
+      - my_world
+    #protection bypass permission here.
+    #buraya engellerden etkilenmeyecek rütbeyi yazın.
+    adminperm: empireadmin
+    break: deny
+    place: deny
+    pickup: deny
+    drop: deny
+    use: deny
+    pvp: deny
+    mobspawn: deny
+    chat: deny
+#Spawn point settings
+#Spawn noktası ayarları
+Spawn:
+  SendToSpawn: false
+  #Command: /spawn
+  SpawnCommand: true
+  #Bu seçenek oyuncunun girişte spawn noktasına gönderilmesini ayarlar
+  #True = Girişte spawn'a ışınla / False = Girişte spawn'a ışınlama
+  X: 0
+  Y: 64
+  Z: 0
+  Yaw: 0
+  Pitch: 0
+  World: world

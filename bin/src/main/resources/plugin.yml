@@ -1,0 +1,13 @@
+name: EmpireProtect
+version: '2.3'
+main: com.viayxempire.Main
+prefix: EmpireProtect
+load: STARTUP
+authors: [ islamreyz ]
+description: World Protect
+website: www.viayxempire.com
+commands:
+  empireprotect:
+    description: Main Command.
+    aliases: [ep,empirep]
+
